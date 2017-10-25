@@ -1,0 +1,37 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "esversion": 6
+    },
+    "parserOptions": { "sourceType": "module" },
+    "extends": "eslint:recommended",
+    "globals": {
+      "require": true
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "no-console": 0,
+        "indent": [
+          "error",
+          2,
+          { "MemberExpression": 1 }
+        ]
+    }
+}
+
