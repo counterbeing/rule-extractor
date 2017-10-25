@@ -1,11 +1,12 @@
 {
   "name": "rule-extractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Takes easy list style rules and turns themn into a query string",
   "main": "./dist/index.js",
   "author": "Cory Logan",
   "license": "MIT",
   "private": false,
+	"repository": "https://github.com/counterbeing/rule-extractor",
   "devDependencies": {
     "babel-cli": "6",
     "babel-preset-es2015": "6"
